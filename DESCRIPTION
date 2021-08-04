@@ -2,8 +2,8 @@ Package: galts
 Type: Package
 Title: Genetic Algorithms and C-Steps Based LTS (Least Trimmed Squares)
         Estimation
-Version: 1.3.1
-Date: 2017-11-24
+Version: 1.5.0
+Date: 2021-08-04
 Author: Mehmet Hakan Satman
 Maintainer: Mehmet Hakan Satman <mhsatman@istanbul.edu.tr>
 Description: Includes the ga.lts() function that estimates
@@ -19,10 +19,12 @@ Description: Includes the ga.lts() function that estimates
         lower bias and variance in a reasonable time. Version >=1.3 
         includes the function medmad for fast outlier detection in
         linear regression.
-Depends: genalg, DEoptim
+Depends: genalg, DEoptim, dfoptim
 Repository: CRAN
 License: GPL
 LazyLoad: yes
 Packaged: 2017-11-24 10:35:50 UTC; hako
 Date/Publication: 2017-11-24 10:49:11 UTC
 NeedsCompilation: no
+Suggests:
+	testthat, MASS
