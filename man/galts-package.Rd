@@ -9,16 +9,7 @@ Genetic algorithms and C-steps based LTS (Least Trimmed Squares) estimation
 This package includes the ga.lts function that estimates LTS (Least Trimmed Squares) parameters using genetic algorithms and C-steps. ga.lts()  constructs a genetic algorithm to form a basic subset and iterates C-steps as defined in Rousseeuw and van-Driessen (2006) to calculate the cost value of the LTS criterion. OLS (Ordinary 
 Least Squares) regression is known to be sensitive to outliers. A single outlying observation can change the values of estimated parameters. LTS is a resistant estimator even the number of outliers is up to half of the data. This package is for estimating the LTS parameters with lower bias and variance in a reasonable time. 
 }
-\details{
-\tabular{ll}{
-Package: \tab galts\cr
-Type: \tab Package\cr
-Version: \tab 1.1\cr
-Date: \tab 2011-02-04\cr
-License: \tab GPL\cr
-LazyLoad: \tab yes\cr
-}
-}
+
 \author{
 Mehmet Hakan Satman
 
